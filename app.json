@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "mySoko",
-    "slug": "mySoko",
+    "name": "MySoko",
+    "slug": "mysoko",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/playstore.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dickens1.mysoko"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/playstore.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15f24514-798f-4988-b208-2d5e239d29f3"
+      }
+    },
+    "owner": "dickens1"
   }
 }
